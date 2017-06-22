@@ -10,11 +10,11 @@ public class loginUser extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login_company);
-        email = (EditText)findViewById(R.id.email);
-        password = (EditText)findViewById(R.id.paspassword);
-        email.getBackground().clearColorFilter();
-        password.getBackground().clearColorFilter();
+        setContentView(R.layout.singel_card_masna);
+//        email = (EditText)findViewById(R.id.email);
+//        password = (EditText)findViewById(R.id.paspassword);
+//        email.getBackground().clearColorFilter();
+//        password.getBackground().clearColorFilter();
 
     }
 }
