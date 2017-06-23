@@ -5,9 +5,9 @@ package com.example.shaymaa.uicompany.data;
  */
 
 public class JSONResponse {
-    private AndroidVersion[] android;
+    private Factory_data[] android;
 
-    public AndroidVersion[] getAndroid() {
+    public Factory_data[] getAndroid() {
         return android;
     }
 }

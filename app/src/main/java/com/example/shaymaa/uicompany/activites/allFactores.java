@@ -7,7 +7,7 @@ import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 
 import com.example.shaymaa.uicompany.R;
-import com.example.shaymaa.uicompany.data.AndroidVersion;
+import com.example.shaymaa.uicompany.data.Factory_data;
 import com.example.shaymaa.uicompany.data.DataAdapter;
 import com.example.shaymaa.uicompany.data.JSONResponse;
 import com.example.shaymaa.uicompany.interfaces.RequestInterface;
@@ -21,10 +21,10 @@ import retrofit2.Response;
  import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
-public class recyclewiewTest extends AppCompatActivity {
+public class allFactores extends AppCompatActivity {
 
     private RecyclerView recyclerView;
-    private ArrayList<AndroidVersion> data;
+    private ArrayList<Factory_data> data;
     private DataAdapter adapter ;
 
     @Override

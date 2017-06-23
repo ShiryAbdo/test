@@ -18,18 +18,21 @@
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity
             android:name=".activites.loginUser"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
+        <activity android:name=".activites.loginCompany" />
+        <activity android:name=".activites.registrationUser" />
+        <activity android:name=".activites.registrationCompany" />
+        <activity android:name=".activites.soadyFactory" />
+        <activity android:name=".activites.allFactores">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activites.loginCompany" />
-        <activity android:name=".activites.registrationUser" />
-        <activity android:name=".activites.registrationCompany" />
-        <activity android:name=".activites.soadyFactory" />
-        <activity android:name=".activites.recyclewiewTest"></activity>
+        <activity
+            android:name=".activites.serchFactoryActivity"
+            android:label="@string/title_activity_serch_factory"></activity>
     </application>
 
 </manifest>

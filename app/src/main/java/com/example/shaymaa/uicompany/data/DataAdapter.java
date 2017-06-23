@@ -15,24 +15,24 @@ import java.util.ArrayList;
  */
 
 public class DataAdapter extends RecyclerView.Adapter<DataAdapter.ViewHolder> {
-    private ArrayList<AndroidVersion> android;
+    private ArrayList<Factory_data> android;
 
-    public DataAdapter(ArrayList<AndroidVersion> android) {
+    public DataAdapter(ArrayList<Factory_data> android) {
         this.android = android;
     }
 
     @Override
     public DataAdapter.ViewHolder onCreateViewHolder(ViewGroup viewGroup, int i) {
-        View view = LayoutInflater.from(viewGroup.getContext()).inflate(R.layout.card_row, viewGroup, false);
+        View view = LayoutInflater.from(viewGroup.getContext()).inflate(R.layout. singel_card_masna, viewGroup, false);
         return new ViewHolder(view);
     }
 
     @Override
     public void onBindViewHolder(DataAdapter.ViewHolder viewHolder, int i) {
 
-        viewHolder.tv_name.setText(android.get(i).getName());
-        viewHolder.tv_version.setText(android.get(i).getVer());
-        viewHolder.tv_api_level.setText(android.get(i).getApi());
+        viewHolder.factory_name.setText(android.get(i).getName());
+        viewHolder.cintery_name.setText(android.get(i).getVer());
+        viewHolder.email_factory.setText(android.get(i).getApi());
     }
 
     @Override
@@ -41,13 +41,13 @@ public class DataAdapter extends RecyclerView.Adapter<DataAdapter.ViewHolder> {
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder{
-        private TextView tv_name,tv_version,tv_api_level;
+        private TextView factory_name,cintery_name,email_factory;
         public ViewHolder(View view) {
             super(view);
 
-            tv_name = (TextView)view.findViewById(R.id.tv_name);
-            tv_version = (TextView)view.findViewById(R.id.tv_version);
-            tv_api_level = (TextView)view.findViewById(R.id.tv_api_level);
+            factory_name = (TextView)view.findViewById(R.id.name_factory);
+            cintery_name = (TextView)view.findViewById(R.id.counter_name);
+            email_factory = (TextView)view.findViewById(R.id.email_factory);
 
         }
     }
