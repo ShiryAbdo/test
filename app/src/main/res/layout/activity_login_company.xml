@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
      android:orientation="vertical"
     android:background="@drawable/smoke_chimney_industrial_29465_copy_2"
-    tools:context="com.example.shaymaa.uicompany.loginCompany">
+    tools:context="com.example.shaymaa.uicompany.activites.loginCompany">
 <!--2-->
     <ImageView
         android:layout_marginTop="15dp"

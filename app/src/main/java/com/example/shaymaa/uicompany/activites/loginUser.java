@@ -1,8 +1,10 @@
-package com.example.shaymaa.uicompany;
+package com.example.shaymaa.uicompany.activites;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.EditText;
+
+import com.example.shaymaa.uicompany.R;
 
 public class loginUser extends AppCompatActivity {
     EditText email ,password ;

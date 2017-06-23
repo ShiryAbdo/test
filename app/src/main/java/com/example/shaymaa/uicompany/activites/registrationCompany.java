@@ -1,7 +1,9 @@
-package com.example.shaymaa.uicompany;
+package com.example.shaymaa.uicompany.activites;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.example.shaymaa.uicompany.R;
 
 public class registrationCompany extends AppCompatActivity {
 

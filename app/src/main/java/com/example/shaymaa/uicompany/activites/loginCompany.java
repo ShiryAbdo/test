@@ -1,13 +1,15 @@
-package com.example.shaymaa.uicompany;
+package com.example.shaymaa.uicompany.activites;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class MainActivity extends AppCompatActivity {
+import com.example.shaymaa.uicompany.R;
+
+public class loginCompany extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_login_company);
     }
 }

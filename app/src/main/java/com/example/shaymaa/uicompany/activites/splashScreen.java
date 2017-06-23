@@ -1,11 +1,11 @@
-package com.example.shaymaa.uicompany;
+package com.example.shaymaa.uicompany.activites;
 
-import android.animation.ObjectAnimator;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.animation.DecelerateInterpolator;
 import android.widget.ProgressBar;
+
+import com.example.shaymaa.uicompany.R;
 
 import java.util.Timer;
 import java.util.TimerTask;
