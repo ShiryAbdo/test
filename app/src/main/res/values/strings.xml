@@ -4,4 +4,26 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+
+
+    <string name="postel_code">الرمز البريدي</string>
+    <string name="prodectes">المنتجات</string>
+    <string name="sooady_factores">المصانع السعودية</string>
+    <string name="singel_register">التسجيل كافرد</string>
+    <string name="moassa_register">التسجيل كامؤسسة</string>
+    <string name="factory_parts">قطع غيار المصنع</string>
+    <string name="support">الدعم الفني</string>
+    <string name="logo_first_page">logo_first_page</string>
+    <string name="serch_factort">ابحث عن مصنعك</string>
+    <string name="over_view_all_factores">عرض كل المصانع</string>
+    <string name="add_factory">أضف مصنعك</string>
+    <string name="conplet_regstration">أكمل التسجيل</string>
+    <string name="add_your_factory">أضف مصنعك</string>
+    <string name="owner_name_of_factory">اسم صاحب المصنع</string>
+    <string name="factory_name">اسم المصنع</string>
+    <string name="ether_phone_factory">رقم هاتف المصنع</string>
+    <string name="phone_numbe_add">رقم الجوال</string>
+    <string name="email">البريد الإلكتروني</string>
+    <string name="what_factpry_prodect">ماذا ينتج المصنع</string>
+    <string name="contuio">المتابعة</string>
 </resources>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:background="@drawable/bg_first_page"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_marginTop="24dp"
+        android:layout_gravity="center"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:id="@+id/imageView"
+        android:background="@drawable/logo_first_page"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <LinearLayout
+        android:id="@+id/layou_prodectes"
+        android:layout_marginRight="@dimen/_15sdp"
+        android:layout_width="@dimen/_140sdp"
+        android:layout_height="@dimen/_120sdp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/back"
+        android:orientation="vertical"
+        android:scaleType="fitCenter"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="14dp"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentEnd="true">
+
+
+        <ImageButton
+            android:id="@+id/productesImage"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:paddingStart="@dimen/_15sdp"
+            android:paddingTop="@dimen/_15sdp"
+            android:paddingEnd="@dimen/_15sdp"
+             android:adjustViewBounds="true"
+            android:background="@drawable/back"
+            android:scaleType="fitCenter"
+
+            android:src="@drawable/factory" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+             android:text="@string/over_view_all_factores"
+            android:padding="@dimen/_10sdp"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/over_view_factors_layout"
+        android:layout_width="@dimen/_140sdp"
+        android:layout_height="@dimen/_120sdp"
+        android:layout_marginLeft="@dimen/_15sdp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/back3"
+        android:orientation="vertical"
+        android:scaleType="fitCenter"
+         android:layout_alignTop="@+id/layou_prodectes"
+        android:layout_alignParentStart="true">
+
+
+        <ImageView
+            android:id="@+id/over_view_factorsImage"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:paddingStart="@dimen/_15sdp"
+            android:paddingTop="@dimen/_15sdp"
+            android:paddingEnd="@dimen/_15sdp"
+            android:adjustViewBounds="true"
+             android:scaleType="fitCenter"
+
+            android:src="@drawable/search_engine" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_10sdp"
+            android:text="@string/serch_factort"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/layot_regist_ind"
+        android:layout_width="@dimen/_280sdp"
+        android:layout_height="@dimen/_100sdp"
+        android:background="@drawable/back4"
+         android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:orientation="vertical"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/layou_prodectes"
+        android:layout_centerHorizontal="true">
+
+
+        <ImageView
+            android:id="@+id/imageRegistration"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:paddingStart="@dimen/_15sdp"
+            android:paddingTop="@dimen/_15sdp"
+            android:paddingEnd="@dimen/_15sdp"
+             android:src="@drawable/man1"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:textSize="20sp"
+             android:textAlignment="center"
+            android:padding="@dimen/_10sdp"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:text= "@string/add_factory"
+            />
+
+    </LinearLayout>
+</RelativeLayout>

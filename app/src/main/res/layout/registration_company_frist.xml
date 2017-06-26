@@ -147,7 +147,7 @@
             android:textColor="#ffffff"
             android:background="@drawable/login_btn"
             android:layout_gravity="center"
-            android:text="أكمل التسجيل "
+            android:text="@string/conplet_regstration"
             android:textSize="20sp"
             android:layout_width="@dimen/_220sdp"
             android:layout_height="@dimen/_35sdp"
